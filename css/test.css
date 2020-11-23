@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+a:active {
+  display: block;
+  background: #000;
+}
+
+a:visited {
+  color: blue;
+}
+
+ul li:first-child {
+  background: black;
+  color: grey;
+}
+
+ul li:last-child {
+  background: pink;
+  color: purple;
+}
+
+ul li:nth-child(2) {
+  color: red;
+}
+
+ul li:nth-child(even) {
+  color: yellow;
+}
+ul li:nth-child(odd) {
+  color: green;
+}
+
+p::first-letter {
+  float: left;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3em;
+}
